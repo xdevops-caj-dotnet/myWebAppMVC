@@ -107,7 +107,7 @@ Modify `myWebAppMVC.csproj` to modify the Newtonsoft.Json version as expected ve
 
 ### Migrate the laytout files
 
-Refer to [Migrate the layout files(https://docs.microsoft.com/en-us/aspnet/core/migration/mvc?view=aspnetcore-5.0&preserve-view=true#migrate-the-layout-files) to migrate the layout files `Views/Shared/_Layout.cshtml`.
+Refer to [Migrate the layout files](https://docs.microsoft.com/en-us/aspnet/core/migration/mvc?view=aspnetcore-5.0&preserve-view=true#migrate-the-layout-files) to migrate the layout files `Views/Shared/_Layout.cshtml`.
 
 
 ## Test after upgrade
