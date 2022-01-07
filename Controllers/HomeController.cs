@@ -6,21 +6,21 @@ using System.Web.Mvc;
 
 namespace myWebAppMVC.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : Microsoft.AspNetCore.Mvc.Controller
     {
-        public ActionResult Index()
+        public Microsoft.AspNetCore.Mvc.ActionResult Index()
         {
             return View();
         }
 
-        public ActionResult About()
+        public Microsoft.AspNetCore.Mvc.ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
 
             return View();
         }
 
-        public ActionResult Contact()
+        public Microsoft.AspNetCore.Mvc.ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
 
