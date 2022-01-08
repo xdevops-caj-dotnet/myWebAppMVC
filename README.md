@@ -1,6 +1,6 @@
 [TOC]
 
-# Upgrade .NET Framework MVC to .NEt 6
+# Upgrade .NET Framework MVC to .NEt 6 and deploy to OpenShift
 
 ## Pre-Rreq
 
