@@ -139,14 +139,16 @@ oc new-app dotnet:6.0-ubi8~https://github.com/xdevops-caj-dotnet/myWebAppMVC.git
 # Check build logs
 oc logs -f bc/my-web-app-mvc
 
-# Expose service
+# Create a route that uses edge TLS termination if configure https for .NET app
 oc get svc
-oc expose svc my-web-app-mvc
+oc create route edge --service=my-web-app-mvc
 
 # Check route of the WebApp
 oc get route
 
 ```
+
+Access <https://my-web-app-mvc-will-dotnet-demo.${CLUSTER_ADMIN}> by browser.
 
 
 ## Troubleshooting
