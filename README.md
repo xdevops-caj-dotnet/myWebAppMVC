@@ -165,3 +165,4 @@ Access <https://my-web-app-mvc-will-dotnet-demo.${CLUSTER_ADMIN}> by browser.
 - [Upgrade an ASP.NET MVC app to .NET 6 with the .NET Upgrade Assistant](https://docs.microsoft.com/en-us/dotnet/core/porting/upgrade-assistant-aspnetmvc)
 - [Upgrading from .NET Framework to .NET 6](https://www.youtube.com/watch?v=cOHXt_0VDRI)
 - [Migrate from .NET Framework to .NET 5](https://medium.com/@dumindudesilva/migrate-from-the-net-framework-to-net-5-5aef306d10f5)
+- [Meet the .NET Upgrade Assistant, Your .NET 5 Moving Company](https://www.daveabrock.com/2021/04/18/meet-dotnet-upgrade-assistant-your-dotnet-5-moving-company/)
