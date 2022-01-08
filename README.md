@@ -131,7 +131,7 @@ Refer to [Run .NET WebApp on OpenShift](https://github.com/xdevops-caj-dotnet/my
 
 ```bash
 # Create a OpenShift project(namespace)
-oc new-project dotnet-demo
+oc new-project will-dotnet-demo
 
 # Create application by 'dotnet:6.0-ubi8' builder image stream tag
 oc new-app dotnet:6.0-ubi8~https://github.com/xdevops-caj-dotnet/myWebAppMVC.git#net6 --name my-web-app-mvc
